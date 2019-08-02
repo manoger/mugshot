@@ -1,7 +1,7 @@
 # mugshot
 ---
 **The profile image API**
-Germano's version
+(Germano's version)
 
 ### First steps
 (Configuring the environment):
