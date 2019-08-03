@@ -17,6 +17,7 @@
     2. required Gradle compatible
 ---
 ### Usage
+
 > :smiley: URL: `http://localhost:9500/` - Profile image
 
 > :bridge_at_night: URL: `http://localhost:9500/banner` - Banner image
@@ -37,16 +38,18 @@
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the image will be deleted]
 ---
-> :game_die: URL: `http://localhost:9500/generateImage/random` - Profile image
+:game_die: Random
+>  URL: `http://localhost:9500/generateImage/random` - Profile image
 
 #### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `POST`
 * `header`
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the generated image will be stored]
 ---
-> :page_facing_up: URL: `http://localhost:9500/base64` - Profile image
+:page_facing_up: Base64
+> URL: `http://localhost:9500/base64` - Profile image
 
-> :page_facing_up: URL: `http://localhost:9500/base64/banner` - Banner image
+> URL: `http://localhost:9500/base64/banner` - Banner image
 
 alternative form for getting image
 #### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `GET`
