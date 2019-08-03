@@ -44,9 +44,9 @@
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the generated image will be stored]
 ---
-> :symbols: URL: `http://localhost:9500/base64` - Profile image
+> :page_facing_up: URL: `http://localhost:9500/base64` - Profile image
 
-> :abcd: URL: `http://localhost:9500/base64/banner` - Banner image
+> :page_facing_up: URL: `http://localhost:9500/base64/banner` - Banner image
 
 alternative form for getting image
 #### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `GET`
