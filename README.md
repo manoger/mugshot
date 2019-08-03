@@ -66,7 +66,7 @@ alternative form for getting image
 
 ---
 <details>
-<summary>:art: General Usage</summary> 
+<summary>:art: General Usage (comming soon :construction_worker:)</summary> 
 (just put the link in a img tag and it works)
 
 > URL: `http://localhost:9500/images/{image_name}` - Any image
@@ -81,3 +81,8 @@ alternative form for getting image
 * `path variable`
     * *image_name*: `a valid image name`
 </details>
+<details>
+<summary>:file_folder: User images (comming soon :construction_worker:)</summary>
+</details>
+_"This fork made from a specific api of a hive product, was made especially to make free use in any application.
+Make yourself at home."_:yellow_heart:
