@@ -81,6 +81,8 @@ alternative form for getting image
 * `path variable`
     * *image_name*: `a valid image name`
 </details>
+
+---
 <details>
 <summary>:file_folder: User images (comming soon :construction_worker:)</summary>
 </details>
