@@ -38,21 +38,46 @@
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the image will be deleted]
 ---
-:game_die: Random
+<details>
+<summary>:game_die: Random</summary>
+
 >  URL: `http://localhost:9500/generateImage/random` - Profile image
 
 #### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `POST`
 * `header`
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the generated image will be stored]
+</details>
+
 ---
-:page_facing_up: Base64
+<details>
+<summary>:page_facing_up: Base64</summary>
+
+alternative form for getting image
 > URL: `http://localhost:9500/base64` - Profile image
 
 > URL: `http://localhost:9500/base64/banner` - Banner image
 
-alternative form for getting image
 #### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `GET`
 * `header`
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the image will be retrieved encoded in base64]
+</details>
+
+---
+<details>
+<summary>:art: General Usage</summary> 
+(just put the link in a img tag and it works)
+
+> URL: `http://localhost:9500/images/{image_name}` - Any image
+
+#### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `POST`
+* `path variable`
+    * *image_name*: `a valid image name`
+#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `GET`
+* `path variable`
+    * *image_name*: `a valid image name`
+#### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `DELETE`
+* `path variable`
+    * *image_name*: `a valid image name`
+</details>
