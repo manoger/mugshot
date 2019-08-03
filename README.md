@@ -2,7 +2,7 @@
 ---
 :suspect:
 **The profile image API**
-(Germano's version)
+(Germano's version/see my branch)
 
 ### First steps
 (Configuring the environment):
