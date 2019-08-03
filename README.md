@@ -86,5 +86,6 @@ alternative form for getting image
 <details>
 <summary>:file_folder: User images (comming soon :construction_worker:)</summary>
 </details>
-_"This fork made from a specific api of a hive product, was made especially to make free use in any application.
-Make yourself at home."_:yellow_heart:
+
+ "*This fork made from a specific api of a hive product, was made especially to make free use in any application.
+Make yourself at home.*" :yellow_heart:
