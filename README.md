@@ -22,18 +22,18 @@
 
 > :bridge_at_night: URL: `http://localhost:9500/banner` - Banner image
 
-#### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `POST`
+#### 🔵 `POST`
 * `header`
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the image will be stored]
 * `body`
     * *key*: `image`
     * *value*: [file in form-data]
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `GET`
+#### 🟢 `GET`
 * `header`
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the image will be retrieved]
-#### ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `DELETE`
+#### 🔴 `DELETE`
 * `header`
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the image will be deleted]
@@ -41,7 +41,7 @@
 :game_die: Random
 >  URL: `http://localhost:9500/generateImage/random` - Profile image
 
-#### ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `POST`
+#### 🔵 `POST`
 * `header`
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the generated image will be stored]
@@ -52,7 +52,7 @@
 > URL: `http://localhost:9500/base64/banner` - Banner image
 
 alternative form for getting image
-#### ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `GET`
+#### 🟢 `GET`
 * `header`
     * *key*: `authenticated-user-id`
     * *value*: [identification for the folder where the image will be retrieved encoded in base64]
